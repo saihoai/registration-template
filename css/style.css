@@ -1,0 +1,12 @@
+html { height: 100%; }
+body { background: transparent url(../images/bg.png) no-repeat left top; background-size: cover }
+body .tabs { width: 400px; margin: 50px auto; background-color: #fff; }
+body .tabs .nav-tabs { background-color: #eee; border-bottom: 0 solid transparent; }
+body .tabs .nav-tabs > li { margin: 0; }
+body .tabs .nav-tabs > li.active > a,
+body .tabs .nav-tabs > li > a { border-width: 0; margin: 0; padding: 20px 40px; font-size: 15px; color: #333; }
+body .tabs .nav-tabs > li.active > a { border-radius: 0; color: #337ab7; }
+body .tabs .tab-content { padding: 30px;}
+body .tabs .tab-content .form-group { margin: 0 0 30px; }
+body .tabs .tab-content .form-group.last { margin: 0; cursor: pointer; }
+body .tabs .tab-content .form-group .form-control { border-width: 2px; }
